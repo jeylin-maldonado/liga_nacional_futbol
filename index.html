@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liga Nacional de Fútbol</title>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.8/dist/handlebars.min.js"></script>
+<style>
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f4f7fb;
+  color: #222;
+  margin: 40px;
+}
+h1 {
+  text-align: center;
+  color: #1a73e8;
+}
+table {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+th {
+  background: #1a73e8;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+td, th {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background: #f1f5f9;
+}
+</style>
+
+</head>
+<body>
+  <h1>Equipos de la Liga Nacional</h1>
+  <div id="tabla-container"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
